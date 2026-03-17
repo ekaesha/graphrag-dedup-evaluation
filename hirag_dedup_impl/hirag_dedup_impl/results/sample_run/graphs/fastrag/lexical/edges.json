@@ -1,0 +1,46 @@
+[
+  {
+    "edge_id": "fe1",
+    "source": "f1",
+    "target": "f3",
+    "relation": "used_in",
+    "source_chunks": [
+      "c1"
+    ],
+    "framework": "fastrag",
+    "dedup_mode": "lexical"
+  },
+  {
+    "edge_id": "fe2",
+    "source": "f2",
+    "target": "f4",
+    "relation": "treats",
+    "source_chunks": [
+      "c2"
+    ],
+    "framework": "fastrag",
+    "dedup_mode": "lexical"
+  },
+  {
+    "edge_id": "fe3",
+    "source": "f5",
+    "target": "f6",
+    "relation": "same_as",
+    "source_chunks": [
+      "c5"
+    ],
+    "framework": "fastrag",
+    "dedup_mode": "lexical"
+  },
+  {
+    "edge_id": "fe4",
+    "source": "f7",
+    "target": "f5",
+    "relation": "may worsen",
+    "source_chunks": [
+      "c7"
+    ],
+    "framework": "fastrag",
+    "dedup_mode": "lexical"
+  }
+]

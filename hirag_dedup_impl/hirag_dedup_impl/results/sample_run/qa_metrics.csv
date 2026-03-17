@@ -1,0 +1,10 @@
+ExactMatch,TokenF1,ROUGE-L,AnswerRedundancy,GroundingProxy,framework,mode
+0.0,0.475758,0.475758,0.0,0.583333,fastrag,lexical
+0.0,0.475758,0.475758,0.0,0.583333,fastrag,no_dedup
+0.0,0.242424,0.242424,0.0,0.722222,fastrag,semantic
+0.0,0.475758,0.475758,0.0,0.472222,hirag,lexical
+0.0,0.475758,0.475758,0.0,0.638889,hirag,no_dedup
+0.0,0.475758,0.475758,0.0,0.416667,hirag,semantic
+0.0,0.523377,0.523377,0.0,0.472222,lightrag,lexical
+0.0,0.523377,0.523377,0.0,0.638889,lightrag,no_dedup
+0.0,0.52704,0.52704,0.0,0.416667,lightrag,semantic

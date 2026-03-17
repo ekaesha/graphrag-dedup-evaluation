@@ -1,0 +1,616 @@
+[
+  {
+    "framework": "hirag",
+    "mode": "no_dedup",
+    "question_id": "q1",
+    "retrieved_node_ids": [
+      "h2",
+      "h4",
+      "h5",
+      "h1",
+      "h3"
+    ],
+    "retrieved_node_names": [
+      "aspirin",
+      "Myocardial Infarction",
+      "heart attack",
+      "Aspirin",
+      "Acetylsalicylic Acid"
+    ],
+    "gold_node_names": [
+      "Aspirin",
+      "Myocardial Infarction",
+      "heart attack"
+    ]
+  },
+  {
+    "framework": "hirag",
+    "mode": "no_dedup",
+    "question_id": "q2",
+    "retrieved_node_ids": [
+      "h6",
+      "h2",
+      "h5",
+      "h8",
+      "h7"
+    ],
+    "retrieved_node_names": [
+      "Hypertension",
+      "aspirin",
+      "heart attack",
+      "Ibuprofen",
+      "high blood pressure"
+    ],
+    "gold_node_names": [
+      "Hypertension",
+      "high blood pressure",
+      "high-blood-pressure"
+    ]
+  },
+  {
+    "framework": "hirag",
+    "mode": "no_dedup",
+    "question_id": "q3",
+    "retrieved_node_ids": [
+      "h5",
+      "h1",
+      "h2",
+      "h4"
+    ],
+    "retrieved_node_names": [
+      "heart attack",
+      "Aspirin",
+      "aspirin",
+      "Myocardial Infarction"
+    ],
+    "gold_node_names": [
+      "Ibuprofen",
+      "Advil",
+      "NSAID"
+    ]
+  },
+  {
+    "framework": "hirag",
+    "mode": "lexical",
+    "question_id": "q1",
+    "retrieved_node_ids": [
+      "h4",
+      "h1",
+      "h6",
+      "h3",
+      "h5"
+    ],
+    "retrieved_node_names": [
+      "Myocardial Infarction",
+      "Aspirin",
+      "Hypertension",
+      "Acetylsalicylic Acid",
+      "heart attack"
+    ],
+    "gold_node_names": [
+      "Aspirin",
+      "Myocardial Infarction",
+      "heart attack"
+    ]
+  },
+  {
+    "framework": "hirag",
+    "mode": "lexical",
+    "question_id": "q2",
+    "retrieved_node_ids": [
+      "h6",
+      "h5",
+      "h4",
+      "h1",
+      "h8"
+    ],
+    "retrieved_node_names": [
+      "Hypertension",
+      "heart attack",
+      "Myocardial Infarction",
+      "Aspirin",
+      "Ibuprofen"
+    ],
+    "gold_node_names": [
+      "Hypertension",
+      "high blood pressure",
+      "high-blood-pressure"
+    ]
+  },
+  {
+    "framework": "hirag",
+    "mode": "lexical",
+    "question_id": "q3",
+    "retrieved_node_ids": [
+      "h5",
+      "h6",
+      "h1",
+      "h4",
+      "h7"
+    ],
+    "retrieved_node_names": [
+      "heart attack",
+      "Hypertension",
+      "Aspirin",
+      "Myocardial Infarction",
+      "high blood pressure"
+    ],
+    "gold_node_names": [
+      "Ibuprofen",
+      "Advil",
+      "NSAID"
+    ]
+  },
+  {
+    "framework": "hirag",
+    "mode": "semantic",
+    "question_id": "q1",
+    "retrieved_node_ids": [
+      "h5",
+      "h1",
+      "h8",
+      "h6"
+    ],
+    "retrieved_node_names": [
+      "heart attack",
+      "Aspirin",
+      "Ibuprofen",
+      "Hypertension"
+    ],
+    "gold_node_names": [
+      "Aspirin",
+      "Myocardial Infarction",
+      "heart attack"
+    ]
+  },
+  {
+    "framework": "hirag",
+    "mode": "semantic",
+    "question_id": "q2",
+    "retrieved_node_ids": [
+      "h6",
+      "h5",
+      "h8",
+      "h1"
+    ],
+    "retrieved_node_names": [
+      "Hypertension",
+      "heart attack",
+      "Ibuprofen",
+      "Aspirin"
+    ],
+    "gold_node_names": [
+      "Hypertension",
+      "high blood pressure",
+      "high-blood-pressure"
+    ]
+  },
+  {
+    "framework": "hirag",
+    "mode": "semantic",
+    "question_id": "q3",
+    "retrieved_node_ids": [
+      "h5",
+      "h1",
+      "h6",
+      "h8"
+    ],
+    "retrieved_node_names": [
+      "heart attack",
+      "Aspirin",
+      "Hypertension",
+      "Ibuprofen"
+    ],
+    "gold_node_names": [
+      "Ibuprofen",
+      "Advil",
+      "NSAID"
+    ]
+  },
+  {
+    "framework": "lightrag",
+    "mode": "no_dedup",
+    "question_id": "q1",
+    "retrieved_node_ids": [
+      "l3",
+      "l4",
+      "l1",
+      "l2"
+    ],
+    "retrieved_node_names": [
+      "myocardial infarction",
+      "Heart Attack",
+      "Aspirin ",
+      "acetylsalicylic acid"
+    ],
+    "gold_node_names": [
+      "Aspirin",
+      "Myocardial Infarction",
+      "heart attack"
+    ]
+  },
+  {
+    "framework": "lightrag",
+    "mode": "no_dedup",
+    "question_id": "q2",
+    "retrieved_node_ids": [
+      "l6",
+      "l7",
+      "l8",
+      "l5"
+    ],
+    "retrieved_node_names": [
+      "Hypertension",
+      "NSAID",
+      "Ibuprofen",
+      "high-blood-pressure"
+    ],
+    "gold_node_names": [
+      "Hypertension",
+      "high blood pressure",
+      "high-blood-pressure"
+    ]
+  },
+  {
+    "framework": "lightrag",
+    "mode": "no_dedup",
+    "question_id": "q3",
+    "retrieved_node_ids": [
+      "l7",
+      "l4",
+      "l3",
+      "l2",
+      "l1"
+    ],
+    "retrieved_node_names": [
+      "NSAID",
+      "Heart Attack",
+      "myocardial infarction",
+      "acetylsalicylic acid",
+      "Aspirin "
+    ],
+    "gold_node_names": [
+      "Ibuprofen",
+      "Advil",
+      "NSAID"
+    ]
+  },
+  {
+    "framework": "lightrag",
+    "mode": "lexical",
+    "question_id": "q1",
+    "retrieved_node_ids": [
+      "l3",
+      "l1",
+      "l6",
+      "l5"
+    ],
+    "retrieved_node_names": [
+      "myocardial infarction",
+      "Aspirin ",
+      "Hypertension",
+      "high-blood-pressure"
+    ],
+    "gold_node_names": [
+      "Aspirin",
+      "Myocardial Infarction",
+      "heart attack"
+    ]
+  },
+  {
+    "framework": "lightrag",
+    "mode": "lexical",
+    "question_id": "q2",
+    "retrieved_node_ids": [
+      "l6",
+      "l7",
+      "l1",
+      "l8",
+      "l3"
+    ],
+    "retrieved_node_names": [
+      "Hypertension",
+      "NSAID",
+      "Aspirin ",
+      "Ibuprofen",
+      "myocardial infarction"
+    ],
+    "gold_node_names": [
+      "Hypertension",
+      "high blood pressure",
+      "high-blood-pressure"
+    ]
+  },
+  {
+    "framework": "lightrag",
+    "mode": "lexical",
+    "question_id": "q3",
+    "retrieved_node_ids": [
+      "l7",
+      "l4",
+      "l3",
+      "l1",
+      "l2"
+    ],
+    "retrieved_node_names": [
+      "NSAID",
+      "Heart Attack",
+      "myocardial infarction",
+      "Aspirin ",
+      "acetylsalicylic acid"
+    ],
+    "gold_node_names": [
+      "Ibuprofen",
+      "Advil",
+      "NSAID"
+    ]
+  },
+  {
+    "framework": "lightrag",
+    "mode": "semantic",
+    "question_id": "q1",
+    "retrieved_node_ids": [
+      "l4",
+      "l1",
+      "l8",
+      "l7"
+    ],
+    "retrieved_node_names": [
+      "Heart Attack",
+      "Aspirin ",
+      "Ibuprofen",
+      "NSAID"
+    ],
+    "gold_node_names": [
+      "Aspirin",
+      "Myocardial Infarction",
+      "heart attack"
+    ]
+  },
+  {
+    "framework": "lightrag",
+    "mode": "semantic",
+    "question_id": "q2",
+    "retrieved_node_ids": [
+      "l6",
+      "l7",
+      "l8"
+    ],
+    "retrieved_node_names": [
+      "Hypertension",
+      "NSAID",
+      "Ibuprofen"
+    ],
+    "gold_node_names": [
+      "Hypertension",
+      "high blood pressure",
+      "high-blood-pressure"
+    ]
+  },
+  {
+    "framework": "lightrag",
+    "mode": "semantic",
+    "question_id": "q3",
+    "retrieved_node_ids": [
+      "l7",
+      "l4",
+      "l6",
+      "l1",
+      "l8"
+    ],
+    "retrieved_node_names": [
+      "NSAID",
+      "Heart Attack",
+      "Hypertension",
+      "Aspirin ",
+      "Ibuprofen"
+    ],
+    "gold_node_names": [
+      "Ibuprofen",
+      "Advil",
+      "NSAID"
+    ]
+  },
+  {
+    "framework": "fastrag",
+    "mode": "no_dedup",
+    "question_id": "q1",
+    "retrieved_node_ids": [
+      "f2",
+      "f3",
+      "f1",
+      "f4"
+    ],
+    "retrieved_node_names": [
+      "Aspirin",
+      "MI",
+      "ASA",
+      "heart attack"
+    ],
+    "gold_node_names": [
+      "Aspirin",
+      "Myocardial Infarction",
+      "heart attack"
+    ]
+  },
+  {
+    "framework": "fastrag",
+    "mode": "no_dedup",
+    "question_id": "q2",
+    "retrieved_node_ids": [
+      "f5",
+      "f2",
+      "f4",
+      "f7",
+      "f6"
+    ],
+    "retrieved_node_names": [
+      "Hypertension",
+      "Aspirin",
+      "heart attack",
+      "Ibuprofen",
+      "high blood pressure"
+    ],
+    "gold_node_names": [
+      "Hypertension",
+      "high blood pressure",
+      "high-blood-pressure"
+    ]
+  },
+  {
+    "framework": "fastrag",
+    "mode": "no_dedup",
+    "question_id": "q3",
+    "retrieved_node_ids": [
+      "f4",
+      "f1",
+      "f3",
+      "f2"
+    ],
+    "retrieved_node_names": [
+      "heart attack",
+      "ASA",
+      "MI",
+      "Aspirin"
+    ],
+    "gold_node_names": [
+      "Ibuprofen",
+      "Advil",
+      "NSAID"
+    ]
+  },
+  {
+    "framework": "fastrag",
+    "mode": "lexical",
+    "question_id": "q1",
+    "retrieved_node_ids": [
+      "f3",
+      "f2",
+      "f1",
+      "f4"
+    ],
+    "retrieved_node_names": [
+      "MI",
+      "Aspirin",
+      "ASA",
+      "heart attack"
+    ],
+    "gold_node_names": [
+      "Aspirin",
+      "Myocardial Infarction",
+      "heart attack"
+    ]
+  },
+  {
+    "framework": "fastrag",
+    "mode": "lexical",
+    "question_id": "q2",
+    "retrieved_node_ids": [
+      "f5",
+      "f2",
+      "f4",
+      "f7",
+      "f6"
+    ],
+    "retrieved_node_names": [
+      "Hypertension",
+      "Aspirin",
+      "heart attack",
+      "Ibuprofen",
+      "high blood pressure"
+    ],
+    "gold_node_names": [
+      "Hypertension",
+      "high blood pressure",
+      "high-blood-pressure"
+    ]
+  },
+  {
+    "framework": "fastrag",
+    "mode": "lexical",
+    "question_id": "q3",
+    "retrieved_node_ids": [
+      "f4",
+      "f3",
+      "f1",
+      "f2"
+    ],
+    "retrieved_node_names": [
+      "heart attack",
+      "MI",
+      "ASA",
+      "Aspirin"
+    ],
+    "gold_node_names": [
+      "Ibuprofen",
+      "Advil",
+      "NSAID"
+    ]
+  },
+  {
+    "framework": "fastrag",
+    "mode": "semantic",
+    "question_id": "q1",
+    "retrieved_node_ids": [
+      "f3",
+      "f1",
+      "f7",
+      "f5"
+    ],
+    "retrieved_node_names": [
+      "MI",
+      "ASA",
+      "Ibuprofen",
+      "Hypertension"
+    ],
+    "gold_node_names": [
+      "Aspirin",
+      "Myocardial Infarction",
+      "heart attack"
+    ]
+  },
+  {
+    "framework": "fastrag",
+    "mode": "semantic",
+    "question_id": "q2",
+    "retrieved_node_ids": [
+      "f5",
+      "f1",
+      "f3",
+      "f7"
+    ],
+    "retrieved_node_names": [
+      "Hypertension",
+      "ASA",
+      "MI",
+      "Ibuprofen"
+    ],
+    "gold_node_names": [
+      "Hypertension",
+      "high blood pressure",
+      "high-blood-pressure"
+    ]
+  },
+  {
+    "framework": "fastrag",
+    "mode": "semantic",
+    "question_id": "q3",
+    "retrieved_node_ids": [
+      "f1",
+      "f3",
+      "f5",
+      "f7"
+    ],
+    "retrieved_node_names": [
+      "ASA",
+      "MI",
+      "Hypertension",
+      "Ibuprofen"
+    ],
+    "gold_node_names": [
+      "Ibuprofen",
+      "Advil",
+      "NSAID"
+    ]
+  }
+]

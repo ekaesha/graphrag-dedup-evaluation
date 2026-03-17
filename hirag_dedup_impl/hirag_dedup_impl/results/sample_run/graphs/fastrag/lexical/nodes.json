@@ -1,0 +1,85 @@
+[
+  {
+    "node_id": "f1",
+    "name": "ASA",
+    "type": "Drug",
+    "aliases": [
+      "Aspirin"
+    ],
+    "source_chunks": [
+      "c1"
+    ],
+    "framework": "fastrag",
+    "dedup_mode": "lexical"
+  },
+  {
+    "node_id": "f2",
+    "name": "Aspirin",
+    "type": "Drug",
+    "aliases": [],
+    "source_chunks": [
+      "c2"
+    ],
+    "framework": "fastrag",
+    "dedup_mode": "lexical"
+  },
+  {
+    "node_id": "f3",
+    "name": "MI",
+    "type": "Condition",
+    "aliases": [
+      "myocardial infarction"
+    ],
+    "source_chunks": [
+      "c3"
+    ],
+    "framework": "fastrag",
+    "dedup_mode": "lexical"
+  },
+  {
+    "node_id": "f4",
+    "name": "heart attack",
+    "type": "Condition",
+    "aliases": [],
+    "source_chunks": [
+      "c4"
+    ],
+    "framework": "fastrag",
+    "dedup_mode": "lexical"
+  },
+  {
+    "node_id": "f5",
+    "name": "Hypertension",
+    "type": "Condition",
+    "aliases": [],
+    "source_chunks": [
+      "c5"
+    ],
+    "framework": "fastrag",
+    "dedup_mode": "lexical"
+  },
+  {
+    "node_id": "f6",
+    "name": "high blood pressure",
+    "type": "Condition",
+    "aliases": [],
+    "source_chunks": [
+      "c6"
+    ],
+    "framework": "fastrag",
+    "dedup_mode": "lexical"
+  },
+  {
+    "node_id": "f7",
+    "name": "Ibuprofen",
+    "type": "Drug",
+    "aliases": [
+      "Advil"
+    ],
+    "source_chunks": [
+      "c7"
+    ],
+    "framework": "fastrag",
+    "dedup_mode": "lexical"
+  }
+]

@@ -1,0 +1,12 @@
+frameworks:
+  - hirag
+  - lightrag
+  - fastrag
+k_values: [1, 3, 5]
+lexical:
+  fuzzy_threshold: 92
+semantic:
+  similarity_threshold: 0.58
+  use_alias_dictionary: true
+qa:
+  redundancy_ngram_n: 3

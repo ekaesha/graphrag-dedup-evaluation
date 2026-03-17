@@ -1,0 +1,23 @@
+[
+  {
+    "question_id": "q1",
+    "question": "How is aspirin related to myocardial infarction?",
+    "type": "multi-hop",
+    "gold_answer": "Aspirin is linked to myocardial infarction management.",
+    "gold_node_names": ["Aspirin", "Myocardial Infarction", "heart attack"]
+  },
+  {
+    "question_id": "q2",
+    "question": "What is another name for hypertension?",
+    "type": "factoid",
+    "gold_answer": "Hypertension is high blood pressure.",
+    "gold_node_names": ["Hypertension", "high blood pressure", "high-blood-pressure"]
+  },
+  {
+    "question_id": "q3",
+    "question": "What drug is associated with NSAID therapy and pain treatment?",
+    "type": "factoid",
+    "gold_answer": "Ibuprofen is associated with NSAID therapy and pain treatment.",
+    "gold_node_names": ["Ibuprofen", "Advil", "NSAID"]
+  }
+]

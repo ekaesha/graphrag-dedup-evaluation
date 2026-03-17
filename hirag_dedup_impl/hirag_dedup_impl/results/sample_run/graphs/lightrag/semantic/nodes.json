@@ -1,0 +1,66 @@
+[
+  {
+    "node_id": "l1",
+    "name": "Aspirin ",
+    "type": "Drug",
+    "aliases": [
+      "acetylsalicylic acid"
+    ],
+    "source_chunks": [
+      "c1",
+      "c2"
+    ],
+    "framework": "lightrag",
+    "dedup_mode": "semantic"
+  },
+  {
+    "node_id": "l4",
+    "name": "Heart Attack",
+    "type": "Condition",
+    "aliases": [
+      "myocardial infarction"
+    ],
+    "source_chunks": [
+      "c3",
+      "c4"
+    ],
+    "framework": "lightrag",
+    "dedup_mode": "semantic"
+  },
+  {
+    "node_id": "l6",
+    "name": "Hypertension",
+    "type": "Condition",
+    "aliases": [
+      "high-blood-pressure"
+    ],
+    "source_chunks": [
+      "c5",
+      "c6"
+    ],
+    "framework": "lightrag",
+    "dedup_mode": "semantic"
+  },
+  {
+    "node_id": "l7",
+    "name": "NSAID",
+    "type": "Class",
+    "aliases": [],
+    "source_chunks": [
+      "c7"
+    ],
+    "framework": "lightrag",
+    "dedup_mode": "semantic"
+  },
+  {
+    "node_id": "l8",
+    "name": "Ibuprofen",
+    "type": "Drug",
+    "aliases": [],
+    "source_chunks": [
+      "c8"
+    ],
+    "framework": "lightrag",
+    "dedup_mode": "semantic"
+  }
+]

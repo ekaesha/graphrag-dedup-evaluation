@@ -1,0 +1,218 @@
+[
+  {
+    "framework": "hirag",
+    "mode": "no_dedup",
+    "question_id": "q1",
+    "prediction": "Aspirin is used in cardiovascular care and is linked to myocardial infarction management.",
+    "gold_answer": "Aspirin is linked to myocardial infarction management.",
+    "evidence_text": "aspirin; Myocardial Infarction; heart attack; Aspirin; Acetylsalicylic Acid"
+  },
+  {
+    "framework": "hirag",
+    "mode": "no_dedup",
+    "question_id": "q2",
+    "prediction": "Hypertension corresponds to high blood pressure.",
+    "gold_answer": "Hypertension is high blood pressure.",
+    "evidence_text": "Hypertension; aspirin; heart attack; Ibuprofen; high blood pressure"
+  },
+  {
+    "framework": "hirag",
+    "mode": "no_dedup",
+    "question_id": "q3",
+    "prediction": "heart attack, Aspirin, aspirin",
+    "gold_answer": "Ibuprofen is associated with NSAID therapy and pain treatment.",
+    "evidence_text": "heart attack; Aspirin; aspirin; Myocardial Infarction"
+  },
+  {
+    "framework": "hirag",
+    "mode": "lexical",
+    "question_id": "q1",
+    "prediction": "Aspirin is used in cardiovascular care and is linked to myocardial infarction management.",
+    "gold_answer": "Aspirin is linked to myocardial infarction management.",
+    "evidence_text": "Myocardial Infarction; Aspirin; Hypertension; Acetylsalicylic Acid; heart attack"
+  },
+  {
+    "framework": "hirag",
+    "mode": "lexical",
+    "question_id": "q2",
+    "prediction": "Hypertension corresponds to high blood pressure.",
+    "gold_answer": "Hypertension is high blood pressure.",
+    "evidence_text": "Hypertension; heart attack; Myocardial Infarction; Aspirin; Ibuprofen"
+  },
+  {
+    "framework": "hirag",
+    "mode": "lexical",
+    "question_id": "q3",
+    "prediction": "heart attack, Hypertension, Aspirin",
+    "gold_answer": "Ibuprofen is associated with NSAID therapy and pain treatment.",
+    "evidence_text": "heart attack; Hypertension; Aspirin; Myocardial Infarction; high blood pressure"
+  },
+  {
+    "framework": "hirag",
+    "mode": "semantic",
+    "question_id": "q1",
+    "prediction": "Aspirin is used in cardiovascular care and is linked to myocardial infarction management.",
+    "gold_answer": "Aspirin is linked to myocardial infarction management.",
+    "evidence_text": "heart attack; Aspirin; Ibuprofen; Hypertension"
+  },
+  {
+    "framework": "hirag",
+    "mode": "semantic",
+    "question_id": "q2",
+    "prediction": "Hypertension corresponds to high blood pressure.",
+    "gold_answer": "Hypertension is high blood pressure.",
+    "evidence_text": "Hypertension; heart attack; Ibuprofen; Aspirin"
+  },
+  {
+    "framework": "hirag",
+    "mode": "semantic",
+    "question_id": "q3",
+    "prediction": "heart attack, Aspirin, Hypertension",
+    "gold_answer": "Ibuprofen is associated with NSAID therapy and pain treatment.",
+    "evidence_text": "heart attack; Aspirin; Hypertension; Ibuprofen"
+  },
+  {
+    "framework": "lightrag",
+    "mode": "no_dedup",
+    "question_id": "q1",
+    "prediction": "Aspirin is used in cardiovascular care and is linked to myocardial infarction management.",
+    "gold_answer": "Aspirin is linked to myocardial infarction management.",
+    "evidence_text": "myocardial infarction; Heart Attack; Aspirin ; acetylsalicylic acid"
+  },
+  {
+    "framework": "lightrag",
+    "mode": "no_dedup",
+    "question_id": "q2",
+    "prediction": "Hypertension corresponds to high blood pressure.",
+    "gold_answer": "Hypertension is high blood pressure.",
+    "evidence_text": "Hypertension; NSAID; Ibuprofen; high-blood-pressure"
+  },
+  {
+    "framework": "lightrag",
+    "mode": "no_dedup",
+    "question_id": "q3",
+    "prediction": "NSAID, Heart Attack, myocardial infarction",
+    "gold_answer": "Ibuprofen is associated with NSAID therapy and pain treatment.",
+    "evidence_text": "NSAID; Heart Attack; myocardial infarction; acetylsalicylic acid; Aspirin "
+  },
+  {
+    "framework": "lightrag",
+    "mode": "lexical",
+    "question_id": "q1",
+    "prediction": "Aspirin is used in cardiovascular care and is linked to myocardial infarction management.",
+    "gold_answer": "Aspirin is linked to myocardial infarction management.",
+    "evidence_text": "myocardial infarction; Aspirin ; Hypertension; high-blood-pressure"
+  },
+  {
+    "framework": "lightrag",
+    "mode": "lexical",
+    "question_id": "q2",
+    "prediction": "Hypertension corresponds to high blood pressure.",
+    "gold_answer": "Hypertension is high blood pressure.",
+    "evidence_text": "Hypertension; NSAID; Aspirin ; Ibuprofen; myocardial infarction"
+  },
+  {
+    "framework": "lightrag",
+    "mode": "lexical",
+    "question_id": "q3",
+    "prediction": "NSAID, Heart Attack, myocardial infarction",
+    "gold_answer": "Ibuprofen is associated with NSAID therapy and pain treatment.",
+    "evidence_text": "NSAID; Heart Attack; myocardial infarction; Aspirin ; acetylsalicylic acid"
+  },
+  {
+    "framework": "lightrag",
+    "mode": "semantic",
+    "question_id": "q1",
+    "prediction": "Aspirin is used in cardiovascular care and is linked to myocardial infarction management.",
+    "gold_answer": "Aspirin is linked to myocardial infarction management.",
+    "evidence_text": "Heart Attack; Aspirin ; Ibuprofen; NSAID"
+  },
+  {
+    "framework": "lightrag",
+    "mode": "semantic",
+    "question_id": "q2",
+    "prediction": "Hypertension corresponds to high blood pressure.",
+    "gold_answer": "Hypertension is high blood pressure.",
+    "evidence_text": "Hypertension; NSAID; Ibuprofen"
+  },
+  {
+    "framework": "lightrag",
+    "mode": "semantic",
+    "question_id": "q3",
+    "prediction": "NSAID, Heart Attack, Hypertension",
+    "gold_answer": "Ibuprofen is associated with NSAID therapy and pain treatment.",
+    "evidence_text": "NSAID; Heart Attack; Hypertension; Aspirin ; Ibuprofen"
+  },
+  {
+    "framework": "fastrag",
+    "mode": "no_dedup",
+    "question_id": "q1",
+    "prediction": "Aspirin is used in cardiovascular care and is linked to myocardial infarction management.",
+    "gold_answer": "Aspirin is linked to myocardial infarction management.",
+    "evidence_text": "Aspirin; MI; ASA; heart attack"
+  },
+  {
+    "framework": "fastrag",
+    "mode": "no_dedup",
+    "question_id": "q2",
+    "prediction": "Hypertension corresponds to high blood pressure.",
+    "gold_answer": "Hypertension is high blood pressure.",
+    "evidence_text": "Hypertension; Aspirin; heart attack; Ibuprofen; high blood pressure"
+  },
+  {
+    "framework": "fastrag",
+    "mode": "no_dedup",
+    "question_id": "q3",
+    "prediction": "heart attack, ASA, MI",
+    "gold_answer": "Ibuprofen is associated with NSAID therapy and pain treatment.",
+    "evidence_text": "heart attack; ASA; MI; Aspirin"
+  },
+  {
+    "framework": "fastrag",
+    "mode": "lexical",
+    "question_id": "q1",
+    "prediction": "Aspirin is used in cardiovascular care and is linked to myocardial infarction management.",
+    "gold_answer": "Aspirin is linked to myocardial infarction management.",
+    "evidence_text": "MI; Aspirin; ASA; heart attack"
+  },
+  {
+    "framework": "fastrag",
+    "mode": "lexical",
+    "question_id": "q2",
+    "prediction": "Hypertension corresponds to high blood pressure.",
+    "gold_answer": "Hypertension is high blood pressure.",
+    "evidence_text": "Hypertension; Aspirin; heart attack; Ibuprofen; high blood pressure"
+  },
+  {
+    "framework": "fastrag",
+    "mode": "lexical",
+    "question_id": "q3",
+    "prediction": "heart attack, MI, ASA",
+    "gold_answer": "Ibuprofen is associated with NSAID therapy and pain treatment.",
+    "evidence_text": "heart attack; MI; ASA; Aspirin"
+  },
+  {
+    "framework": "fastrag",
+    "mode": "semantic",
+    "question_id": "q1",
+    "prediction": "MI, ASA, Ibuprofen",
+    "gold_answer": "Aspirin is linked to myocardial infarction management.",
+    "evidence_text": "MI; ASA; Ibuprofen; Hypertension"
+  },
+  {
+    "framework": "fastrag",
+    "mode": "semantic",
+    "question_id": "q2",
+    "prediction": "Hypertension corresponds to high blood pressure.",
+    "gold_answer": "Hypertension is high blood pressure.",
+    "evidence_text": "Hypertension; ASA; MI; Ibuprofen"
+  },
+  {
+    "framework": "fastrag",
+    "mode": "semantic",
+    "question_id": "q3",
+    "prediction": "ASA, MI, Hypertension",
+    "gold_answer": "Ibuprofen is associated with NSAID therapy and pain treatment.",
+    "evidence_text": "ASA; MI; Hypertension; Ibuprofen"
+  }
+]

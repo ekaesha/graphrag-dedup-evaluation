@@ -1,0 +1,47 @@
+[
+  {
+    "edge_id": "he1",
+    "source": "h1",
+    "target": "h5",
+    "relation": "treats",
+    "source_chunks": [
+      "c1",
+      "c2"
+    ],
+    "framework": "hirag",
+    "dedup_mode": "semantic"
+  },
+  {
+    "edge_id": "he3",
+    "source": "h1",
+    "target": "h5",
+    "relation": "used for",
+    "source_chunks": [
+      "c3"
+    ],
+    "framework": "hirag",
+    "dedup_mode": "semantic"
+  },
+  {
+    "edge_id": "he4",
+    "source": "h6",
+    "target": "h6",
+    "relation": "same as",
+    "source_chunks": [
+      "c6"
+    ],
+    "framework": "hirag",
+    "dedup_mode": "semantic"
+  },
+  {
+    "edge_id": "he5",
+    "source": "h8",
+    "target": "h6",
+    "relation": "contraindicated in",
+    "source_chunks": [
+      "c8"
+    ],
+    "framework": "hirag",
+    "dedup_mode": "semantic"
+  }
+]
