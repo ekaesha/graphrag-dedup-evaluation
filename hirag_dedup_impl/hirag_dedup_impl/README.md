@@ -1,122 +1,53 @@
-# Deduplication benchmark for HiRAG, LightRAG, and Fast GraphRAG
+# GraphRAG Dedup Eval
 
-This package implements the full experimental scaffold for comparing deduplication across three GraphRAG-style systems:
-- HiRAG
-- LightRAG
-- Fast GraphRAG
+Evaluation pipeline for studying the effect of deduplication in GraphRAG-style systems.
 
-It covers:
-- unified graph export format
+## Overview
+
+This repository contains an evaluation pipeline for deduplication experiments in graph-based retrieval-augmented generation systems. The project is designed to support graph exports from frameworks such as HiRAG, LightRAG, and Fast GraphRAG.
+
+The pipeline includes:
+- graph normalization to a unified schema
 - lexical deduplication
 - semantic deduplication
 - graph-level metrics
-- retrieval benchmark
+- retrieval metrics
+- QA evaluation
+- sample experiment scripts and outputs
+
+## Repository structure
+
+- `src/` — core implementation
+- `scripts/` — experiment runners
+- `config/` — configuration files
+- `data/` — sample data
+- `results/` — sample outputs
+- `IMPLEMENTED.md` — summary of implemented components
+
+## Current status
+
+Implemented:
+- unified graph schema
+- lexical deduplication module
+- semantic deduplication module
+- graph metrics
+- retrieval metrics
 - QA metrics
-- reproducible experiment runner
-- a working sample dataset with duplicates
+- sample experiment pipeline
 
-## What is implemented
+In progress:
+- integration with real graph exports from HiRAG, LightRAG, and Fast GraphRAG
 
-### 1. Unified graph schema
-Every framework is normalized to the same format:
-- `nodes.json`
-- `edges.json`
+Planned:
+- full-scale experiments on the target domain dataset
+- extended ablation study for deduplication strategies
 
-### 2. Deduplication modes
-- `no_dedup`
-- `lexical`
-- `semantic`
+## How to run
 
-### 3. Metrics
-#### Graph metrics
-- node count
-- edge count
-- average degree
-- connected components
-- density
-- duplicate reduction rate (DRR)
-
-#### Retrieval metrics
-- Recall@k
-- Precision@k
-- MRR
-- Hit Rate
-
-#### QA metrics
-- token-level F1
-- exact match
-- ROUGE-L
-- answer redundancy
-- grounding proxy
-
-## Project layout
-
-```text
-hirag_dedup_impl/
-├── config/
-├── data/
-├── results/
-├── scripts/
-└── src/graphrag_dedup/
-```
-
-## Quick start
-
-Run the full sample experiment:
+Install dependencies:
 
 ```bash
-python scripts/run_sample_experiment.py
-```
-
-This generates results in `results/sample_run/`.
-
-## Real-data workflow
-
-1. Export graphs from HiRAG, LightRAG, and Fast GraphRAG.
-2. Normalize them into the unified schema.
-3. Put them under:
-
-```text
-results/real_run/exports/<framework>/no_dedup/
-```
-
-4. Run:
-
-```bash
-python scripts/run_real_experiment.py --input-root results/real_run/exports --output-root results/real_run
-```
-```
-
-## Unified schema
-
-### nodes.json
-```json
-[
-  {
-    "node_id": "n1",
-    "name": "Aspirin",
-    "type": "Drug",
-    "aliases": ["aspirin", "acetylsalicylic acid"],
-    "source_chunks": ["c1", "c2"],
-    "framework": "hirag",
-    "dedup_mode": "no_dedup"
-  }
-]
-```
-
-### edges.json
-```json
-[
-  {
-    "edge_id": "e1",
-    "source": "n1",
-    "target": "n2",
-    "relation": "treats",
-    "source_chunks": ["c3"],
-    "framework": "hirag",
-    "dedup_mode": "no_dedup"
-  }
-]
+py -3.14 -m pip install -r requirements.txt
 ```
 
 ## Important note
