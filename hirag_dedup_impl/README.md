@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # GraphRAG Dedup Evaluation Pipeline
 
 Evaluation pipeline for studying how deduplication affects GraphRAG-style systems such as **HiRAG**, **LightRAG**, and **Fast GraphRAG**.
@@ -188,58 +187,6 @@ python scripts/run_real_experiment.py --input-root results/real_run/exports --ou
     "dedup_mode": "no_dedup"
   }
 ]
-=======
-# GraphRAG Dedup Eval
-
-Evaluation pipeline for studying the effect of deduplication in GraphRAG-style systems.
-
-## Overview
-
-This repository contains an evaluation pipeline for deduplication experiments in graph-based retrieval-augmented generation systems. The project is designed to support graph exports from frameworks such as HiRAG, LightRAG, and Fast GraphRAG.
-
-The pipeline includes:
-- graph normalization to a unified schema
-- lexical deduplication
-- semantic deduplication
-- graph-level metrics
-- retrieval metrics
-- QA evaluation
-- sample experiment scripts and outputs
-
-## Repository structure
-
-- `src/` — core implementation
-- `scripts/` — experiment runners
-- `config/` — configuration files
-- `data/` — sample data
-- `results/` — sample outputs
-- `IMPLEMENTED.md` — summary of implemented components
-
-## Current status
-
-Implemented:
-- unified graph schema
-- lexical deduplication module
-- semantic deduplication module
-- graph metrics
-- retrieval metrics
-- QA metrics
-- sample experiment pipeline
-
-In progress:
-- integration with real graph exports from HiRAG, LightRAG, and Fast GraphRAG
-
-Planned:
-- full-scale experiments on the target domain dataset
-- extended ablation study for deduplication strategies
-
-## How to run
-
-Install dependencies:
-
-```bash
-py -3.14 -m pip install -r requirements.txt
->>>>>>> 5b51057dc60337cc59a1b1eba1ed2caa966ab00a
 ```
 
 ## Metrics covered
